@@ -1,0 +1,53 @@
+.sobre-mi{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sobre-mi-contenido{
+        text-align: center;
+        h2{
+            color:$orange;
+            font-size: 40px;
+            margin-bottom: 30px;
+           
+        }
+        p{
+            line-height: 1.5;
+            color: $gris-oscuro;
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+        .tecnologias{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 90px 0;
+            i{
+                font-size: 80px;
+            }
+            .fa-html5{
+                color: #D84B24;
+            }
+            .fa-css3-alt{
+                color: #1269AB;
+            }
+            .fa-bootstrap{
+                color: #7210EB;
+            }
+            .fa-sass{
+                color: #C36291;
+            }
+            .fa-js{
+                color: #EAD41C;
+            }
+            .fa-angular{
+                color:#D2002E;
+            }
+            .fa-react{
+                color: #51CDEE;
+            }
+        }
+    }
+
+}
