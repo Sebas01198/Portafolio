@@ -35,9 +35,15 @@ header{
                 }
             }
         }
-
+        #btn-menu{
+            display: none;
+        }
         nav{
             display: flex;
+            img{
+                display: none;
+            }
+            
             li{
                 margin-left: 30px;
                 a{

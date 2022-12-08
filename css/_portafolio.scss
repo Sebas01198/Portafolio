@@ -1,4 +1,17 @@
 .portafolio{
     height: 100vh;
+    display: flex;
+    align-items: center;
     background-color: $gris;
+    text-align: center;
+    
+
+    .portafolio-contenido{
+
+        h2{
+            color: $orange;
+            font-size: 40px;
+        }
+        
+    }
 }
