@@ -33,7 +33,6 @@ header {
   width: 100%;
   z-index: 1;
   top: 0;
-  margin-bottom: 200px;
 }
 header .menu {
   display: flex;
@@ -218,6 +217,7 @@ header.sticky .logo-nombre .nombre-ocupacion h3 {
   }
   .head .menu nav li a {
     color: #000;
+    letter-spacing: 5px;
   }
   .head .menu nav .menu-responsive {
     display: flex;
