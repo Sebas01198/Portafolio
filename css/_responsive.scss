@@ -30,6 +30,23 @@
                         color: #000;
                     }
                 }
+                .menu-responsive{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    #btn-cerrar{
+                        display: block;
+                        background-color: rgba($color: $white, $alpha: .1);
+                        font-size: 35px;
+                        cursor: pointer;
+                        border-radius: 50px;
+                        transition: all 300ms;
+                        &:hover{
+                            background-color: rgba($color: $white, $alpha: .2);
+                        }
+                        
+                    }
+                }
 
                 
             }

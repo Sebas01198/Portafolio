@@ -68,6 +68,9 @@ header .menu nav {
 header .menu nav img {
   display: none;
 }
+header .menu nav #btn-cerrar {
+  display: none;
+}
 header .menu nav li {
   margin-left: 30px;
 }
@@ -213,6 +216,22 @@ header.sticky .logo-nombre .nombre-ocupacion h3 {
   }
   .head .menu nav li a {
     color: #000;
+  }
+  .head .menu nav .menu-responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head .menu nav .menu-responsive #btn-cerrar {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 300ms;
+  }
+  .head .menu nav .menu-responsive #btn-cerrar:hover {
+    background-color: rgba(255, 255, 255, 0.2);
   }
   .head .menu #btn-menu {
     display: flex;

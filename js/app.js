@@ -5,7 +5,7 @@ const logo = document.querySelector('#logo');
 let textoLogo = document.querySelector('#text-logo')
 const btnMenu = document.getElementById('btn-menu');
 const nav = document.getElementById('nav');
-const hero = document.querySelector('.hero')
+const btn_ocultar = document.getElementById('btn-cerrar')
     
 //Events
 CargarEventos();
@@ -15,7 +15,7 @@ function CargarEventos(){
     });
 
     btnMenu.addEventListener('click', mostrar_menu);
-    hero.addEventListener('click',ocultarMenu);
+    btn_ocultar.addEventListener('click',ocultarMenu);
 
 }
 
