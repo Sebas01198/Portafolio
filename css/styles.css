@@ -232,4 +232,22 @@ header.sticky .logo-nombre .nombre-ocupacion h3 {
   .hero .contenido h2 {
     font-size: 15px;
   }
+  .sobre-mi .sobre-mi-contenido h2 {
+    font-size: 25px;
+  }
+  .sobre-mi .sobre-mi-contenido p {
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: left;
+  }
+  .sobre-mi .sobre-mi-contenido .tecnologias {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 90px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sobre-mi .sobre-mi-contenido .tecnologias i {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=styles.css.map */
